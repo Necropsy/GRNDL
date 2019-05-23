@@ -16,6 +16,7 @@ class GRN {
         std::set<std::string> fullGRN();
         std::set<std::string> atrator(std::string vet);
         void passo(bool * aux);
+        void passo(bool * aux, int n);
         bool equals(bool * vet1, bool *vet2, int size);
         void initialState(unsigned long int valor, bool *vet1, bool *vet2, int size);
         std::string boolArraytoString(bool *vet, int size);
